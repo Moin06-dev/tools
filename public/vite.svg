@@ -1,0 +1,26 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#3498db"/>
+
+  <!-- Inner Circle for Icon -->
+  <circle cx="100" cy="100" r="70" fill="white"/>
+
+  <!-- World-like Grid -->
+  <path d="M100 30
+           C115 30, 130 40, 145 70
+           M100 30
+           C85 30, 70 40, 55 70
+           M55 70
+           C55 100, 55 130, 100 170
+           M145 70
+           C145 100, 145 130, 100 170
+           M70 55
+           C100 65, 130 65, 160 55
+           M70 145
+           C100 135, 130 135, 160 145" 
+          stroke="#3498db" stroke-width="3" fill="none"/>
+
+  <!-- Web-like lines -->
+  <line x1="100" y1="30" x2="100" y2="170" stroke="#3498db" stroke-width="3"/>
+  <line x1="30" y1="100" x2="170" y2="100" stroke="#3498db" stroke-width="3"/>
+</svg>
